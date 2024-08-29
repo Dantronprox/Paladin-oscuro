@@ -6,7 +6,7 @@
 
 
 * {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Merengue", "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
 
@@ -22,8 +22,8 @@
 }
 
 header {
-
-    padding: 12px 60px;
+    text-align: center;
+    padding: 0.75rem 3.75rem;
 
 }
 
@@ -39,44 +39,46 @@ header nav {
 header nav ul {
 
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 
 
 }
 
-
-
-
-
 .Jumbotron {
 
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10 60px;
-    background-image: url('/assets/section\ \(1\).png');
+    padding: 0 4rem;
+    background-image: url('assets/jumbotron.jpg');
     background-size: cover;
     background-position: center;
-object-fit: cover;
+background: fixed;
+width: 53rem;
+right: 1rem;
 
 }
 
 .description {
 
-    text-align: center;
     color: #fff;
-    font-weight: bold;
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    bottom: 200px;
+    left: 30%;
+    transform: translateX(-50%);
+
+
 
 }
 
 .tarjeta {
 
-    display: flex;
 
+
+    flex-direction: column;
 
 
 }
