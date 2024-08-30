@@ -39,7 +39,7 @@ header nav {
 header nav ul {
 
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
 
 
 }
@@ -54,9 +54,9 @@ header nav ul {
     background-image: url('assets/jumbotron.jpg');
     background-size: cover;
     background-position: center;
-    background: fixed;
-    width: 53rem;
-    right: 1rem;
+    background:fixed;
+    width: 70rem;
+    
     background-attachment: fixed;
 }
 
@@ -85,6 +85,38 @@ header nav ul {
 width: 28.688rem;
 height: 29.125rem;
 margin: 3.75rem;
+
+
+}
+
+.tarjeta__imagen2 { 
+height: 29rem;
+width:24rem;
+margin: 3.75rem;
+
+
+
+}
+
+
+.tarjeta__imagen3{
+
+    height: 29rem;
+    width:24rem;
+    margin: 3.75rem;
+
+
+}
+
+
+
+
+
+
+
+.contactanos {
+
+display: flex;
 
 
 }
