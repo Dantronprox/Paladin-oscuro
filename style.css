@@ -44,6 +44,30 @@ header nav ul {
 
 }
 
+.contactanos {
+
+
+padding: 0.5rem;
+
+}
+
+
+.boton__sesion {         
+
+
+padding: 0.5rem;
+
+
+}
+
+
+
+
+
+
+
+
+
 .Jumbotron {
 
 
@@ -55,8 +79,7 @@ header nav ul {
     background-size: cover;
     background-position: center;
     background:fixed;
-    width: 70rem;
-    
+    width: 58rem;
     background-attachment: fixed;
 }
 
@@ -74,49 +97,75 @@ header nav ul {
 
 }
 
-.tarjeta {
-
-    flex-direction: column;
 
 
-}
+.titulocafe{
 
-.tarjeta__imagen { 
-width: 28.688rem;
-height: 29.125rem;
-margin: 3.75rem;
-
-
-}
-
-.tarjeta__imagen2 { 
-height: 29rem;
-width:24rem;
-margin: 3.75rem;
-
-
-
+font-size: 3rem;
+justify-items: center;
+padding-left: 35rem;
 }
 
 
-.tarjeta__imagen3{
-
-    height: 29rem;
-    width:24rem;
-    margin: 3.75rem;
-
-
-}
-
-
-
-
-
-
-
-.contactanos {
+.tarjetas1 {
 
 display: flex;
+justify-content: space-between;
+text-align: center;
+margin: 3.75rem;
+gap: 1rem;
+
+}
+
+
+
+
+
+.tarjeta__boton1 {
+
+font-size: 1.5rem;
+padding: 0.5rem;
+background-color: #D9A689;
+}
+
+
+.tarjeta__imagen { 
+    height: 29rem;
+    width:24rem;
+
 
 
 }
+
+.tarjeta__titulo {
+
+font-size: 2rem;
+
+
+}
+
+.tarjeta__descripcion {
+
+font-size: 1rem;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.titulo__dulces {}
+
+
+.tarjetas__2 {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1rem;
+
+
+
+}
+
+
+
+
+
