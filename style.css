@@ -24,7 +24,7 @@
 header {
     text-align: center;
     padding: 0.75rem 3.75rem;
-
+background-color: #592C28;
 }
 
 
@@ -34,13 +34,15 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between
+    
+
 }
 
 header nav ul {
 
     display: flex;
     gap: 6rem;
-
+color: #DCDCDC;
 
 }
 
@@ -89,8 +91,8 @@ padding: 0.5rem;
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom: 12.5rem;
-    left: 30%;
+    bottom: 1.5rem;
+    left: 33.9%;
     transform: translateX(-50%);
 
     background: rgba(216, 165, 136, 0.616)
@@ -107,32 +109,33 @@ padding-left: 35rem;
 }
 
 
-.tarjetas1 {
+.tarjetas {
 
 display: flex;
 justify-content: space-between;
 text-align: center;
 margin: 3.75rem;
-gap: 1rem;
-
+gap: 2rem;
+margin: 1.75rem 1.75rem;
 }
 
 
 
 
 
-.tarjeta__boton1 {
+.tarjeta__boton {
 
 font-size: 1.5rem;
 padding: 0.5rem;
 background-color: #D9A689;
+border-radius: 5%;
 }
 
 
 .tarjeta__imagen { 
     height: 29rem;
     width:24rem;
-
+border-radius: 2%;
 
 
 }
@@ -151,21 +154,32 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-.titulo__dulces {}
+.titulo__dulces {
 
-
-.tarjetas__2 {
-
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 1rem;
-
-
+    font-size: 3rem;
+    justify-items: center;
+    padding-left: 35rem;
 
 }
 
 
 
+footer {
 
+    background-color: #DCDCDC;
+    height: 10rem;
+    text-align: right;
+
+    
+    
+}
+
+.iconos__footer {
+
+display: flex;
+padding: 3rem;
+gap: 1.5rem;
+justify-content: flex-end;
+
+}
 
