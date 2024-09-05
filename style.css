@@ -109,7 +109,7 @@ padding-left: 43rem;
 display: flex;
 justify-content: space-between;
 text-align: center;
-margin: 3.75rem;
+
 gap: 2rem;
 margin: 1.75rem 1.75rem;
 }
@@ -155,7 +155,7 @@ footer {
 
     background-color: #dcdcdc88;
     height: 10rem;
-    text-align: right;
+    padding: 3rem;
 
     
     
@@ -164,15 +164,20 @@ footer {
 .iconos__footer {
 
 display: flex;
-padding: 3rem;
+
 gap: 1.5rem;
 justify-content: flex-end;
 
 }
 
-footer ul {
+.lista {
+justify-content: center;
+gap: 9rem ;
+display: flex;
 
 
 
 
 }
+
+
