@@ -64,25 +64,23 @@ padding: 0.5rem;
 
 
 
-
-
-
-
-
-
 .Jumbotron {
 
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 4rem;
-    background-image: url('assets/jumbotron.jpg');
+    align-items: end;
+    justify-content: start;
+    background-image: url('assets/recursos/jumbotron.jpg');
     background-size: cover;
     background-position: center;
-    background:fixed;
-    width: 58rem;
-    background-attachment: fixed;
+
+    width: 100%;
+    height: 500px;
+    padding: 60px 30px;
+    
+}
+.Jumbotron > div {
+    width: 100%;
 }
 
 .description {
@@ -90,22 +88,20 @@ padding: 0.5rem;
     color: #fff;
     font-size: 3em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: 1.5rem;
-    left: 33.9%;
-    transform: translateX(-50%);
-
+    width: 50%;
+padding: 3rem 1rem;
     background: rgba(216, 165, 136, 0.616)
 
 }
 
 
 
-.titulocafe{
+.titulos{
 
 font-size: 3rem;
 justify-items: center;
-padding-left: 35rem;
+padding-left: 45%;
+
 }
 
 
@@ -114,7 +110,7 @@ padding-left: 35rem;
 display: flex;
 justify-content: space-between;
 text-align: center;
-margin: 3.75rem;
+
 gap: 2rem;
 margin: 1.75rem 1.75rem;
 }
@@ -133,7 +129,7 @@ border-radius: 5%;
 
 
 .tarjeta__imagen { 
-    height: 29rem;
+    height: 26rem;
     width:24rem;
 border-radius: 2%;
 
@@ -154,21 +150,13 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 }
 
-.titulo__dulces {
-
-    font-size: 3rem;
-    justify-items: center;
-    padding-left: 35rem;
-
-}
-
 
 
 footer {
 
-    background-color: #DCDCDC;
+    background-color: #dcdcdc88;
     height: 10rem;
-    text-align: right;
+    padding: 3rem;
 
     
     
@@ -177,9 +165,20 @@ footer {
 .iconos__footer {
 
 display: flex;
-padding: 3rem;
+
 gap: 1.5rem;
 justify-content: flex-end;
 
 }
+
+.lista {
+justify-content: center;
+gap: 9rem ;
+display: flex;
+
+
+
+
+}
+
 
